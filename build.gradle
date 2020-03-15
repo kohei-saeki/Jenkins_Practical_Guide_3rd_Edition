@@ -21,11 +21,11 @@ dependencies {
                     'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
     testCompile 'junit:junit:4.12',
                 'org.easymock:easymock:3.4'
-    checkstyle 'com.puppycrawl.tools:checkstyle:6.11.2'
-    findbugs 'com.google.code.findbugs:findbugs:3.0.1'
+    //checkstyle 'com.puppycrawl.tools:checkstyle:6.11.2'
+    //findbugs 'com.google.code.findbugs:findbugs:3.0.1'
 }
 
-checkstyleMain {
+/*checkstyleMain {
     configFile = file('./config/checkstyle/sun_checks.xml')
     ignoreFailures = true
 }
@@ -41,7 +41,7 @@ findbugsMain {
 
 findbugsTest {
     ignoreFailures = true
-}
+}*/
 
 test {
     ignoreFailures = true
